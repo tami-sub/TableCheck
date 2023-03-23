@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*">
+
+    <TableRow android:minHeight="50dp">
+
+        <TextView
+            android:background="#CCCCCC"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:background="#CCCCCC"
+            android:padding="8dp"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:background="#CCCCCC"
+            android:padding="8dp"
+            android:text="1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:background="#CCCCCC"
+            android:padding="8dp"
+            android:text="2"
+            android:textAlignment="center" />
+
+        <TextView
+            android:background="#CCCCCC"
+            android:padding="8dp"
+            android:text="3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:background="#CCCCCC"
+            android:padding="8dp"
+            android:text="4"
+            android:textAlignment="center" />
+
+        <TextView
+            android:background="#CCCCCC"
+            android:padding="8dp"
+            android:text="5"
+            android:textAlignment="center" />
+
+        <TextView
+            android:background="#CCCCCC"
+            android:padding="8dp"
+            android:text="6"
+            android:textAlignment="center" />
+
+        <TextView
+            android:background="#CCCCCC"
+            android:padding="8dp"
+            android:text="7"
+            android:textAlignment="center" />
+
+        <TextView
+            android:background="#CCCCCC"
+            android:padding="8dp"
+            android:text="Сумма Очков"
+            android:textAlignment="center" />
+
+        <TextView
+            android:background="#CCCCCC"
+            android:padding="8dp"
+            android:text="Место"
+            android:textAlignment="center" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="8dp"
+            android:text="Учасник 1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:padding="8dp"
+            android:text="1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:background="#000"
+            android:padding="8dp"
+            android:text="0"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row12"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row13"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row13"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row14"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row14"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row15"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row15"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row16"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row16"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row17"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row17"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/sum1"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:padding="8dp"
+
+            android:text=""
+            android:textAlignment="center" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="8dp"
+            android:text="Учасник 2"
+            android:textAlignment="center" />
+
+        <TextView
+            android:padding="8dp"
+            android:text="2"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row21"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row23"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:background="#000"
+
+            android:padding="8dp"
+            android:text="0"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row23"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row24"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row24"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row25"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row25"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row26"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row26"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row27"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row27"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/sum2"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:padding="8dp"
+
+            android:text=""
+            android:textAlignment="center" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="8dp"
+            android:text="Учасник 3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:padding="8dp"
+
+            android:text="3"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row31"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row32"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row32"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row34"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:background="#000"
+
+            android:padding="8dp"
+            android:text="0"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row34"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row35"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row35"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row36"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row36"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row37"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row37"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/sum3"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:padding="8dp"
+
+            android:text=""
+            android:textAlignment="center" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="8dp"
+            android:text="Учасник 4"
+            android:textAlignment="center" />
+
+        <TextView
+            android:padding="8dp"
+
+            android:text="4"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row41"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row42"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row42"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row43"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row43"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row45"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:background="#000"
+
+            android:padding="8dp"
+            android:text="0"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row45"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row46"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row46"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row47"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row47"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/sum4"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:padding="8dp"
+
+            android:text=""
+            android:textAlignment="center" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="8dp"
+            android:text="Учасник 5"
+            android:textAlignment="center" />
+
+        <TextView
+            android:padding="8dp"
+
+            android:text="5"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row51"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row52"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row52"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row53"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row53"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row54"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row54"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row56"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:background="#000"
+
+            android:padding="8dp"
+            android:text="0"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row56"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row57"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row57"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/sum5"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:padding="8dp"
+
+            android:text=""
+            android:textAlignment="center" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="8dp"
+            android:text="Учасник 6"
+            android:textAlignment="center" />
+
+        <TextView
+            android:padding="8dp"
+
+            android:text="6"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row61"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row62"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row62"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row63"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row63"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row64"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row64"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row65"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row65"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row67"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:background="#000"
+
+            android:padding="8dp"
+            android:text="0"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row67"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/sum6"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:padding="8dp"
+
+            android:text=""
+            android:textAlignment="center" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="8dp"
+            android:text="Учасник 7"
+            android:textAlignment="center" />
+
+        <TextView
+            android:padding="8dp"
+
+            android:text="7"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row71"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row72"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row72"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row73"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row73"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row74"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row74"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row75"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row75"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:inputType="number"
+            android:nextFocusDown="@id/row76"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/row76"
+            android:digits="0123456789"
+            android:maxLength="1"
+            android:hint="X"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:background="#000"
+            android:padding="8dp"
+            android:text="0"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/sum7"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:padding="8dp"
+
+            android:text=""
+            android:textAlignment="center" />
+
+    </TableRow>
+</TableLayout>
