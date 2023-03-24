@@ -3,8 +3,7 @@ package com.example.tablecheck
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.InputType
-import android.util.Log
+import android.view.View
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
@@ -40,7 +39,7 @@ class MainActivity : AppCompatActivity() {
                             ).show()
                         } else {
                             cellScoreNumber++
-                            writeProperDigit(editText, j, i)
+                            writeProperDigit(editText, j, i, sumTextView)
                             rowSum += editText.text.toString().toInt()
                             sumTextView.text = rowSum.toString()
                             places[i - 1] = rowSum
@@ -67,7 +66,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun writeProperDigit(editText: EditText, j: Int, i: Int) {
+    private fun writeProperDigit(editText: EditText, j: Int, i: Int, sumTextView: TextView) {
         editText.setTextColor(Color.BLACK)
         if (j != 7 && !(i == 7 && j == 6)) {
             val nextEditTextId = if (i != j + 1) "row$i${j + 1}" else "row$i${j + 2}"
@@ -76,6 +75,8 @@ class MainActivity : AppCompatActivity() {
             )
             val editText2 = findViewById<EditText>(nextResourceId)
             editText2.requestFocus()
+        }else{
+            sumTextView.visibility = View.VISIBLE
         }
         editText.clearFocus()
         editText.isEnabled = false

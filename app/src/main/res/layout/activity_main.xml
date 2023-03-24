@@ -162,6 +162,7 @@
 
         <TextView
             android:id="@+id/sum1"
+            android:visibility="invisible"
             android:minHeight="45dp"
             android:padding="8dp"
             android:textAlignment="center" />
@@ -265,6 +266,7 @@
 
         <TextView
             android:id="@+id/sum2"
+            android:visibility="invisible"
             android:minHeight="45dp"
             android:padding="8dp"
             android:textAlignment="center" />
@@ -369,6 +371,7 @@
 
         <TextView
             android:id="@+id/sum3"
+            android:visibility="invisible"
             android:minHeight="45dp"
             android:padding="8dp"
             android:textAlignment="center" />
@@ -473,6 +476,7 @@
 
         <TextView
             android:id="@+id/sum4"
+            android:visibility="invisible"
             android:minHeight="45dp"
             android:padding="8dp"
             android:textAlignment="center" />
@@ -577,6 +581,7 @@
 
         <TextView
             android:id="@+id/sum5"
+            android:visibility="invisible"
             android:minHeight="45dp"
             android:padding="8dp"
             android:textAlignment="center" />
@@ -681,6 +686,7 @@
 
         <TextView
             android:id="@+id/sum6"
+            android:visibility="invisible"
             android:minHeight="45dp"
             android:padding="8dp"
             android:textAlignment="center" />
@@ -784,6 +790,7 @@
 
         <TextView
             android:id="@+id/sum7"
+            android:visibility="invisible"
             android:minHeight="45dp"
             android:padding="8dp"
             android:textAlignment="center" />
