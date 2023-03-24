@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">TableCheck</string>
     <string name="default_letter">X</string>
     <string name="error_text">Введите значение от 0 до 5</string>
 </resources>
