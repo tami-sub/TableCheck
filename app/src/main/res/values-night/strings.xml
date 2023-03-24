@@ -2,4 +2,6 @@
 <resources>
     <string name="default_letter">X</string>
     <string name="error_text">Введите значение от 0 до 5</string>
+    <string name="place">Место</string>
+    <string name="scoresum">Сумма очков</string>
 </resources>

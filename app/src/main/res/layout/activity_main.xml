@@ -62,13 +62,13 @@
         <TextView
             android:background="#CCCCCC"
             android:padding="8dp"
-            android:text="Сумма Очков"
+            android:text="@string/scoresum"
             android:textAlignment="center" />
 
         <TextView
             android:background="#CCCCCC"
             android:padding="8dp"
-            android:text="Место"
+            android:text="@string/place"
             android:textAlignment="center" />
 
     </TableRow>
